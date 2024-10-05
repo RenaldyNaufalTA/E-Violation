@@ -59,8 +59,8 @@ Route::group(['middleware' => ['auth']], function () {
     // Guru
     Route::group(['middleware' => ['role:2']], function () {
         Route::get('/guru/daftar-siswa', [GuruController::class, 'daftar_siswa']);
-        Route::get('/guru/ubah-pass', [StudentController::class, 'view_ubah']);
-        Route::put('/guru/ubah-pass/{id}', [StudentController::class, 'update_pass']);
+        Route::get('/guru/ubah-pass', [GuruController::class, 'view_ubah']);
+        Route::put('/guru/ubah-pass/{id}', [GuruController::class, 'update_pass']);
         Route::get('/guru/histori', [GuruController::class, 'master_history']);
         Route::get('/guru/histori/{id}', [GuruController::class, 'history_siswa']);
         Route::get('/guru/penanganan', [PenangananController::class, 'guru_index']);

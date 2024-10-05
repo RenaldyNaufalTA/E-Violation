@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>E-Violaton SMK Negeri 1 Surabaya</title>
+    <title>E-Book SMK Negeri 1 Surabaya</title>
     @include('component.head')
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -410,10 +410,8 @@
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                    Dalam buku penghubung tata tertib peserta didik tertulis bahwa siswa yang memiliki
+                                    total skor 250 akan dikembalikan ke orangtua atau dikeluarkan dari sekolah.
                                 </p>
                             </div>
                         </li>

@@ -33,7 +33,7 @@
                         {{ __('Kembali') }}
                     </a>
 
-                    <a class="dropdown-item py-2" href="/ubah-pass">
+                    <a class="dropdown-item py-2" href="/guru/ubah-pass">
                         {{ __('Ubah Password') }}
                     </a>
 

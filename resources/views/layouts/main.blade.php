@@ -4,7 +4,7 @@
 <head>
     <base href="../../">
     @include('component.head')
-    <title>E-Book | @yield('title')</title>
+    <title>E-Violation | @yield('title')</title>
     <link rel="stylesheet" href="../css/nav-side-bar.css">
     <link rel="stylesheet" href="../css/pages.css">
     <!-- <link rel="stylesheet" href="../css/datatables.css"> -->
