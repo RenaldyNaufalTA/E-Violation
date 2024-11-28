@@ -1,0 +1,12 @@
+[phases.setup]
+nixpkgs = ["php81", "composer", "nodejs_18", "yarn"]
+
+[phases.build]
+commands = [
+  "composer install --no-dev --optimize-autoloader",
+  "npm install",
+  "npm run build"
+]
+
+[phases.start]
+cmd = "php artisan serve --host=0.0.0.0 --port=8000"
